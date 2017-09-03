@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-07-30T14:54:13
+# Project created by QtCreator 2017-08-29T10:34:14
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = HWcolorchange
+TARGET = lab405class5
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    membersdata.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    membersdata.h
 
 FORMS += \
         mainwindow.ui
